@@ -1,0 +1,50 @@
+h1
+{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 40pt;
+    font-weight: 900;
+    color: blue;
+}
+
+h2
+{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 22pt;
+    font-weight: 700;
+    color: rgb(14, 14, 85);
+}
+
+h3
+{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 18pt;
+    font-weight: 600;
+    color: rgb(14, 14, 85);
+}
+
+body
+{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 400
+    background-color: lightblue;;
+    
+}
+
+
+.p1
+{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 14pt;
+    font-weight: 400
+}
+
+.p2
+{
+    color: rgb(13, 133, 133)
+}
+
+.p3
+{
+    color: rgb(5, 92, 92)
+}
