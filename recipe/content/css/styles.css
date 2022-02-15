@@ -1,0 +1,43 @@
+img {
+    width: 250px;
+    height: auto;
+  }
+  h1
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40pt;
+    font-weight: 900;
+    color: blue;
+}
+
+h2
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 22pt;
+    font-weight: 700;
+    color: rgb(14, 14, 85);
+}
+
+h3
+{
+    text-decoration: underline;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18pt;
+    font-weight: 400;
+    color: rgb(4, 4, 41);
+}
+
+h3
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18pt;
+    font-weight: 400;
+    color: rgb(4, 4, 41);
+}
+
+body
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 11pt;
+    font-weight: 300
+}
