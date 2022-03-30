@@ -1,0 +1,94 @@
+img {
+    width: 250px;
+    height: auto;
+  }
+
+  h1
+{
+    font-family: 'Alegreya', serif;
+    font-size: 40pt;
+    line-height: 20pt;
+    font-weight: 900;
+    color: rgb(252, 176, 23);
+}
+
+h2
+{
+    font-family: 'Alegreya', serif;
+    font-size: 22pt;
+    font-weight: 700;
+    color: rgb(252, 176, 23);
+}
+
+h3
+{
+    text-decoration: underline;
+    font-family: 'Alegreya', serif;
+    font-size: 18pt;
+    font-weight: 400;
+    color: rgb(252, 176, 23);
+}
+
+body
+{
+    font-family: 'Space Mono', monospace;
+    font-size: 11pt;
+    font-weight: 300;
+    background-color:rgb(254, 252, 232) ;
+
+}
+
+header{
+    /* background-color: rgba(0, 255, 0,.5); */
+    background-position: center;
+    text-align: center;
+}
+
+#sectionINGRED{
+    background-position: center;
+}
+
+#INSTRUC .contents{
+    padding: 10px 0 5px 0;
+}
+
+.contents{
+    width: auto;
+    margin: auto;
+    padding: 0px 0 20px 0;
+    color: rgb(66, 62, 55);
+    background-color:rgb(254, 252, 232) ;
+}
+
+img {
+    width: 497px;
+    height: auto;
+    object-fit: cover;
+    float: center;
+    margin-bottom: -18px;
+    margin-top: px;
+    border: rgb(66, 62, 55);
+    border-width: 5pt;
+}
+
+
+header .contents{
+    padding: 152px 0 20px 0;
+    }
+
+
+    @media (max-width: 750px) {
+        h1{
+            font-size: 34pt;
+        line-height: 36pt;
+        font-weight: 900;
+        }
+
+
+    @media (max-width: 500px) {
+        h1{
+            font-size: 20pt;
+            line-height: 22pt;
+            font-weight: 700;
+        }
+    }
