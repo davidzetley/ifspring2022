@@ -1,0 +1,100 @@
+img {
+    width: 250px;
+    height: auto;
+  }
+
+  h1
+{
+    font-family: 'Alegreya', serif;
+    font-size: 40pt;
+    line-height: 20pt;
+    font-weight: 900;
+    color: rgb(15, 11, 1);
+}
+
+h2
+{
+    font-family: 'Alegreya', serif;
+    font-size: 22pt;
+    font-weight: 700;
+    color: rgb(17, 12, 1);
+}
+
+h3
+{
+    text-decoration: underline;
+    font-family: 'Alegreya', serif;
+    font-size: 18pt;
+    font-weight: 400;
+    color: rgb(19, 13, 1);
+}
+
+.buttonBar {
+    width: 95%;
+    background-color: transparent;
+    margin-left: 0%;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttonBar button {
+    background-color: transparent;
+    border: none;
+    font-family:'Alegreya', serif;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: normal;
+}
+.buttonBar button:hover {
+    cursor: pointer;
+    font-family: 'Alegreya', serif;
+    font-weight: 800;
+    font-size: 25px;
+    font-style: italic;
+    color: #ff0000;
+}
+
+body
+{
+    font-family: 'Space Mono', monospace;
+    font-size: 11pt;
+    font-weight: 300;
+    background-color:rgb(254, 252, 232) ;
+
+}
+
+#header #imgCont {
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    margin-right: -40px; 
+    
+}
+#imgCont img {
+    margin-left: 20px;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+    clear: both;
+    margin-bottom: -60px;
+    margin-top: -60px;
+}
+
+.infoSection p {
+    width: 50%;
+    margin-right: 20px;
+}
+
+#habitat #imgCont img{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-right: -40px; 
+    
+}
+
+#habitat p{
+    float: right
+}
