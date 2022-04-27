@@ -1,0 +1,278 @@
+img {
+    width: 250px;
+    height: auto;
+  }
+
+  h1
+{
+    font-family: 'Alegreya', serif;
+    font-size: 40pt;
+    line-height: 20pt;
+    font-weight: 900;
+    color: rgb(15, 11, 1);
+}
+
+h2
+{
+    font-family: 'Alegreya', serif;
+    font-size: 32pt;
+    font-weight: 700;
+    color: rgb(17, 12, 1);
+}
+
+h3
+{
+    text-decoration: underline;
+    font-family: 'Alegreya', serif;
+    font-size: 18pt;
+    font-weight: 400;
+    color: rgb(19, 13, 1);
+}
+
+.buttonBar {
+    width: 95%;
+    background-color: transparent;
+    margin-left: 0%;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttonBar button {
+    background-color: transparent;
+    border: none;
+    font-family:'Alegreya', serif;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: normal;
+}
+
+#Home_Button{
+    background-color: transparent;
+    border: none;
+    font-family:'Alegreya', serif;
+    font-weight: 900;
+    font-size: 35px;
+    font-style: normal;
+    color: #ff8800;
+}
+
+
+.buttonBar button:hover {
+    cursor: pointer;
+    font-family: 'Alegreya', serif;
+    font-weight: 800;
+    font-size: 25px;
+    font-style: italic;
+    color: #ff0000;
+}
+
+body
+{
+    font-family: 'Space Mono', monospace;
+    font-size: 11pt;
+    font-weight: 300;
+    background-color:rgb(254, 252, 232) ;
+}
+
+section{
+    display: inline-block;
+}
+
+#header h1{
+    display: inline-block;
+}
+
+
+#header{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 80px;
+    padding:20px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #4e3601;
+}
+
+#header #imgCont img{
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    padding-left: 5%; 
+    
+}
+
+
+#habitat {
+    width: 95%;
+    height: auto;
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #4e3601;
+    display: inline-block;
+}
+#habitat #imgCont img{
+    width: 80%;
+    display: inline-block;
+    /* padding-top: 3em;
+    padding-bottom: 5%; */
+    margin-left: 10%;
+}
+
+#habitat h2 {
+ margin-left: 10%;
+}
+
+
+ #habitat p {
+    width: 80%;
+    margin-right: 10%;
+    padding-top: 10px;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+#threats {
+    width: 95%;
+    height: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #4e3601;
+    display: inline-block;
+}
+
+#threats #imgCont img{
+    width: 80%;
+    display: inline-block;
+    padding-top: .5em;
+    padding-bottom: em;
+    margin-left: 10%;
+}
+
+#threats h2 {
+ margin-left: 10%;
+ margin-bottom: -20px;
+}
+#threats h3{
+    display: inline;
+    margin-left: 10%;
+    width: 100%;
+}
+
+ #threats p {
+    width: 80%;
+    margin-right: 10%;
+    padding-top: 10px;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+
+#conservation {
+    width: 95%;
+    height: auto;
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #4e3601;
+    display: inline-block;
+}
+#conservation #imgCont img{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    padding-left: 5%; 
+    padding-bottom: 5%;
+}
+
+#conservation h2 {
+ margin-left: 10%;
+}
+
+
+ #conservation p {
+    width: 80%;
+    margin-right: -3%;
+    padding-top: 10px;
+    padding-right: 3em;
+    padding-left: 0em;
+    margin-left: 12%;
+}
+
+
+@media (max-width: 750px) {
+    h1
+{
+    font-family: 'Alegreya', serif;
+    font-size: 30pt;
+    line-height: 20pt;
+    font-weight: 900;
+    color: rgb(15, 11, 1);
+}
+
+h2
+{
+    font-family: 'Alegreya', serif;
+    font-size: 24pt;
+    font-weight: 700;
+    color: rgb(17, 12, 1);
+}
+body
+{
+    font-family: 'Space Mono', monospace;
+    font-size: 8.5pt;
+    font-weight: 300;
+    background-color:rgb(254, 252, 232) ;
+}
+
+@media (max-width: 360px) {
+    h1
+{
+    font-family: 'Alegreya', serif;
+    font-size: 10pt;
+    line-height: 20pt;
+    font-weight: 900;
+    color: rgb(15, 11, 1);
+}
+
+h2
+{
+    font-family: 'Alegreya', serif;
+    font-size: 14pt;
+    font-weight: 700;
+    color: rgb(17, 12, 1);
+}
+body
+{
+    font-family: 'Space Mono', monospace;
+    font-size: 5.5pt;
+    font-weight: 300;
+    background-color:rgb(254, 252, 232) ;
+}
+}}
+
+footer{
+    background-color:rgb(252, 113, 0) ;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #4e3601;
+    margin-top: 20px;
+}
+
+ #footercontents{
+    font-family: 'Space Mono', monospace;
+    font-size: 5.5pt;
+    font-weight: 300;
+    color: #ff8800;
+    margin-left: 10px;
+}
